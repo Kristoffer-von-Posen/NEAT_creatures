@@ -6,15 +6,16 @@ export let board=[[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,0,0,0
 /// klasy
 
 export     class node {
-    constructor(id, typ,val,leyer) {
+    constructor(id, typ,val) {
     this.id = id;
     this.typ = typ;
     this.val = val;
+
   }
 }
 
 export     class connect {
-    constructor(id, inn, out, wei, ena, leyer) {
+    constructor(id, inn, out, wei, ena) {
     this.id = id;
     this.inn = inn;
     this.out = out;
