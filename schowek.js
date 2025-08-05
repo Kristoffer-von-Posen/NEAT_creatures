@@ -27,10 +27,10 @@ export     class connect {
 
 /// funkcje
 
-export function sigmoid(value)
-        {
-            return 1/(1+Math.exp(-value));
-        }
+//export function sigmoid(value)
+       // {
+          //  return 1/(1+Math.exp(-value));
+       /// }
 
 export function r_to_pro(inv_tym)
     {
@@ -39,6 +39,10 @@ export function r_to_pro(inv_tym)
                 inv_tym = inv_tym/10;
             }
         return inv_tym;
+}
+
+export function activ(value) {
+  return Math.tanh(value);
 }
 
 
